@@ -4,8 +4,7 @@ azure:
         client-key: your-keyvault-client-key
         uri: your-keyvault-uri
         tenant-id: your-keyvault-tenant-id
-
     activedirectory:
         client-id: your-aad-client-id
-#        client-secret: your-aad-client-secret(which setted in keyvault)
+        client-secret: your-aad-client-secret
         tenant-id: your-aad-tenant-id
