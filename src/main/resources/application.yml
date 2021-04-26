@@ -1,0 +1,14 @@
+# WebapiA is an optional client, we can access obo resource servers.
+# We can also access a custom server according to the webapiA client.
+
+azure:
+    keyvault:
+        client-id: your-keyvault-client-id
+        client-key: your-keyvault-client-key
+        uri: your-keyvault-uri
+        tenant-id: your-keyvault-tenant-id
+
+    activedirectory:
+        client-id: your-aad-client-id
+#        client-secret: your-aad-client-secret(which setted in keyvault)
+        tenant-id: your-aad-tenant-id
